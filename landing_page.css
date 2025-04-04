@@ -1,8 +1,8 @@
 body {
-    /* background-color: rgba(10, 82, 10, 0.242); */
-    background-image: url("images/beige-abstract-wallpaper-background-image.jpg");
+    background-color: #f2e9e1; 
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
 @font-face {
@@ -29,13 +29,12 @@ ol {
   }
 
 
-/* Add a black background color to the top navigation */
 .topnav {
   background-color: #bc8f8db1;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+
 .topnav a {
   float: left;
   color: #f2f2f2;
