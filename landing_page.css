@@ -31,6 +31,10 @@ p {
     font-size: 16px;
   }
 
+p.center_font {
+    text-align: center;
+  }
+
 ol {
     font-family: verdana;
     font-size: 16px;
@@ -38,7 +42,7 @@ ol {
 
 
 .topnav {
-  background-color: #af867eaf;
+  background-color: #8faf7eaf;
   overflow: hidden;
 }
 
@@ -61,6 +65,6 @@ ol {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #56949fc2;
+  background-color: #0b5222a8;
   color: white;
 }
