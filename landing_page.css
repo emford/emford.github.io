@@ -43,14 +43,11 @@ ol {
 
 .topnav {
   overflow: hidden;  
-  position: fixed;
   top: 0;
   left: 0;
 }
 
 .topnav a {
-  float: left;
-  color: rgb(81, 74, 74);
   display: inline;
   text-align: flex;
   padding: 14px 16px;
@@ -67,5 +64,5 @@ Change the color of links on hover
 /* Add a color to the active/current link */
 .topnav a.active {
   text-decoration: underline;
-  color: rgb(81, 74, 74);
+  color: rgb(62, 33, 33);
 }
