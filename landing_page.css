@@ -1,25 +1,25 @@
 body {
-    background-color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 @font-face {
-    font-family: LeagueScript;
-    src: url("fonts/League_Script/LeagueScript-Regular.ttf");
-  }
+  font-family: Baskervville;
+  src: url("fonts/Baskervville/Baskervville-VariableFont_wght.ttf");
+}
 
 h1 {
-    font-family: LeagueScript;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 80px;
 }
 
 h2 {
-  font-family: verdana;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 20;
   font-style: normal;
   text-align: center;
@@ -27,25 +27,27 @@ h2 {
 }
 
 p {
-    font-family: verdana;
-    font-size: 16px;
-  }
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
 
 p.center_font {
-    text-align: center;
-  }
+  text-align: center;
+}
 
 ol {
-    font-family: verdana;
-    font-size: 16px;
-  }
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
 
 
 .topnav {
-  background-color: #8faf7eaf;
-  overflow: hidden;
+  background-color: #3f3c37af;
+  overflow: hidden;  
+  position: fixed;
+  top: 0;
+  left: 0;
 }
-
 
 .topnav a {
   float: left;
@@ -54,7 +56,7 @@ ol {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: verdana;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* Change the color of links on hover */
@@ -65,6 +67,6 @@ ol {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #0b5222a8;
+  background-color: #3f3c37af;
   color: white;
 }
