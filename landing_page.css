@@ -15,7 +15,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  font-size: 80px;
+  font-size: 70px;
 }
 
 h2 {
@@ -42,7 +42,6 @@ ol {
 
 
 .topnav {
-  background-color: #3f3c37af;
   overflow: hidden;  
   position: fixed;
   top: 0;
@@ -52,7 +51,8 @@ ol {
 .topnav a {
   float: left;
   color: rgb(81, 74, 74);
-  text-align: center;
+  display: inline;
+  text-align: flex;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
